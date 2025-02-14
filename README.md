@@ -1,6 +1,8 @@
 # Firmware for the Binepad keyboards
 **built on QMK, VIA or VIAL**
 
+![](assets/img/binepad_logo.svg)
+
 ---
 
 - Your product will ship with a working firmware.  Only use these if you're experiencing issues and only under the instruction of a Binepad support associate.
