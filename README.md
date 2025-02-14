@@ -1,4 +1,7 @@
-# Firmware for the Binepad keyboards <small>built on QMK, VIA or VIAL</small>
+# Firmware for the Binepad keyboards
+**built on QMK, VIA or VIAL**
+
+**
 
 - Your product will ship with a working firmware.  Only use these if you're experiencing issues and only under the instruction of a Binepad support associate.
     - Please visit [Binepad.com](https://binepad.com) for contact details.
@@ -6,7 +9,13 @@
     - Not all products will be listed.
     - Firmware is periodically rebuilt from the latest QMK / VIA / VIAL source code and committed here, if not available elsewhere.
 
+**
+
 ## Getting custom firmware on your keyboard
+
+Firmware files are stored in this folder and will be the file with the `.bin` or `.uf2` file extension.  Each firmware will also have a changelog showing the release data in the files with the `.changelog.md` extension.
+
+**
 
 All firmware listed herein is build on one of 3 platforms, depending on the device:
 
@@ -31,5 +40,7 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
 ## Facing issues?
 
 If you encounter any issues or bugs while using the devices, please report them via our contacts listed on the [Binepad.com](https://binepad.com). This will help us to track down and resolve problems, and improve the experience for everyone.
+
+**
 
 Thank you :smile:
