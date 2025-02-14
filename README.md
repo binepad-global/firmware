@@ -1,12 +1,12 @@
 # Firmware for the Binepad keyboards
-**built on QMK, VIA or VIAL**
+**&hellip; built on QMK, VIA or VIAL**
 
 ![](assets/img/binepad_logo.svg)
 
 ---
 
 - Your product will ship with a working firmware.  Only use these if you're experiencing issues and only under the instruction of a Binepad support associate.
-    - Please visit [Binepad.com](https://binepad.com) for contact details.
+    - Please visit [binepad.com](https://binepad.com) for contact details.
 - There is no need to pull request to this repository. The content is generated and updated only when needed.
     - Not all products will be listed.
     - Firmware is periodically rebuilt from the latest QMK / VIA / VIAL source code and committed here, if not available elsewhere.
@@ -37,11 +37,11 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
 ## License and Source
 
 - The licence for QMK (and its offspring) is [GNU GPL 2.0](./LICENSE.md)
-- Source for these firmware is compiled from their respective repositories, and the Binepad Global QMK Custom Userspace located at [github.com/binepad-global/qmk_userspace_binepad](https://github.com/binepad-global/qmk_userspace_binepad)
+- Source for these firmware is compiled from their respective repositories, and the Binepad Global QMK Custom Userspace located at [`github.com/binepad-global/qmk_userspace_binepad`](https://github.com/binepad-global/qmk_userspace_binepad)
 
 ## Facing issues?
 
-If you encounter any issues or bugs while using the devices, please report them via our contacts listed on the [Binepad.com](https://binepad.com). This will help us to track down and resolve problems, and improve the experience for everyone.
+If you encounter any issues or bugs while using the devices, please report them via our contacts listed on the [binepad.com](https://binepad.com). This will help us to track down and resolve problems, and improve the experience for everyone.
 
 ---
 
