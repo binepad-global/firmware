@@ -2,9 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
-## Known Issues
+## [2025.03.12]
 
-- With the November Breaking Changes in QMK, the RGB matrix modification keys in VIA no longer map to the corresponding QMK code. This can only be fixed by the VIA team and we're waiting for that to be fixed.
+### Added
+
+- Reinstated the corrected per-key-RGB animation.
+
+### Changed
+
+- Default per-key animation colors are now a rainbow.
 
 ## [2025.02.17]
 
@@ -26,6 +32,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+[2025.03.12]: https://github.com/binepad-global/qmk_userspace_binepad/commit/11a459c0ba7c44574afdfaea09284f56537595b8
 [2025.02.17]: https://github.com/binepad-global/qmk_userspace_binepad/commit/66c6b2e84956dd063cf064dee02bebdd8a709abf
 [2025.02.15]: https://github.com/binepad-global/qmk_userspace_binepad/commit/5023432d924c4d9dc1a60472b500af16ae7a375c
 [2025.02.14]: https://github.com/binepad-global/qmk_userspace_binepad/commit/22463f4598f7315c1df5dd0abf1cc0f2079cd45a
