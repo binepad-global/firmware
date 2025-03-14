@@ -23,5 +23,5 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-[2025.03.14]: https://github.com/qmk/qmk_userspace/commit/fce4eff4fa5521b9c8b1b7f6c1057f97551c91f4
+[2025.03.14]: https://github.com/binepad-global/qmk_userspace_binepad/commit/fce4eff4fa5521b9c8b1b7f6c1057f97551c91f4
 [2020.09.12]: https://github.com/qmk/qmk_firmware/pull/10276
