@@ -2,6 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
+
 ## [2025.03.12]
 
 ### Added
@@ -12,11 +13,13 @@ All notable changes to this project will be documented in this file.
 
 - Default per-key animation colors are now a rainbow.
 
+
 ## [2025.02.17]
 
 ### Removed
 
 - ***Temporary*** removal of the per-key-RGB animation until VIA supports the new RGB-Matrix keycodes.
+
 
 ## [2025.02.15]
 
@@ -24,11 +27,27 @@ All notable changes to this project will be documented in this file.
 
 - Added a workaround for the VIA App not supporting RGB matrix keycodes issue, now maps legacy keys to new keys.
 
+
 ## [2025.02.14]
 
 ### Changed
 
 - Fixed an issue when using the per-key-RGB animation color settings in the VIA App, the keymap gets overwritten.  Only affected users using the per-key-RGB animation.
+
+
+## [2024.05.13]
+
+### Changed
+
+- Changed encoder resolution from default of 4 to 2
+
+
+## [2024.02.01]
+
+### Added
+
+- Added BNK9 to the QMK upstream repo
+
 
 ---
 
@@ -36,3 +55,5 @@ All notable changes to this project will be documented in this file.
 [2025.02.17]: https://github.com/binepad-global/qmk_userspace_binepad/commit/66c6b2e84956dd063cf064dee02bebdd8a709abf
 [2025.02.15]: https://github.com/binepad-global/qmk_userspace_binepad/commit/5023432d924c4d9dc1a60472b500af16ae7a375c
 [2025.02.14]: https://github.com/binepad-global/qmk_userspace_binepad/commit/22463f4598f7315c1df5dd0abf1cc0f2079cd45a
+[2024.05.13]: https://github.com/qmk/qmk_firmware/pull/23707
+[2024.02.01]: https://github.com/qmk/qmk_firmware/pull/22831
