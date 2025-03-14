@@ -34,9 +34,32 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
 > 4. <small>These UI tools will require the Chrome browser, or browsers built on the Chromium platform</small>
 >    <br> :warning: <small>Although both VIA and VIAL are derivatives of QMK they are not cross compatible</small>
 
+## Firmware
+
+| Product || Firmware <small>build on</small> QMK <small>for</small> VIA | Firmware <small>build on</small> VIAL-QMK | Change Log | 
+| --:|:--:|:-- |:-- |:---:|
+| BN003 || [binepad_bn003_binepad.hex](https://raw.githubusercontent.com/firmware/main/binepad_bn003_binepad.hex) || [binepad_bn003_binepad.md](binepad_bn003_binepad.md) |
+| BN006 ||| [binepad_bn006_binepad.bin](https://raw.githubusercontent.com/firmware/main/binepad_bn006_binepad.bin) | [binepad_bn006_binepad.md](binepad_bn006_binepad.md) |
+| BN009 | r1 || [binepad_bn009_r1_binepad.hex](https://raw.githubusercontent.com/firmware/main/binepad_bn009_r1_binepad.hex) | [binepad_bn009_binepad.md](binepad_bn009_binepad.md) |
+|| r2 || [binepad_bn009_r2_binepad.bin](https://raw.githubusercontent.com/firmware/main/binepad_bn009_r2_binepad.bin) ||
+| BNK8 || [binepad_bnk8_binepad.bin](https://raw.githubusercontent.com/firmware/main/binepad_bnk8_binepad.bin) || [binepad_bnk8_binepad.md](binepad_bnk8_binepad.md) |
+| BNK9 || [binepad_bnk9_binepad.uf2](https://raw.githubusercontent.com/firmware/main/binepad_bnk9_binepad.uf2) || [binepad_bnk9_binepad.md](binepad_bnk9_binepad.md) |
+| BNR1 | v1 || [binepad_bnr1_v1_binepad.hex](https://raw.githubusercontent.com/firmware/main/binepad_bnr1_v1_binepad.hex) | [binepad_bnr1_binepad.md](binepad_bnr1_binepad.md)
+|| v2 || [binepad_bnr1_v2_binepad.bin](https://raw.githubusercontent.com/firmware/main/binepad_bnr1_v2_binepad.bin) ||
+| KN01 ||| [binepad_kn01_binepad.bin](https://raw.githubusercontent.com/firmware/main/binepad_kn01_binepad.bin) | [binepad_kn01_binepad.md](binepad_kn01_binepad.md) |
+| Pixie || [binepad_pixie_binepad.uf2](https://raw.githubusercontent.com/firmware/main/binepad_pixie_binepad.uf2)|| [binepad_pixie_binepad.md](binepad_pixie_binepad.md) |
+
+
 ## License and Source
 
 - The licence for QMK (and its offspring) is [GNU GPL 2.0](./LICENSE.md)
+    | Permissions | Limitations | Conditions |
+    | --- | --- | --- |
+    | :white_check_mark: Commercial use | :x: Liability | :information_source: License and copyright notice |
+    | :white_check_mark: Modification | :x: Warranty | :information_source: State changes |
+    | :white_check_mark: Distribution || :information_source: Disclose source |
+    | :white_check_mark: Private use || :information_source: Same license |
+
 - Source for these firmware is compiled from their respective repositories, and the Binepad Global QMK Custom Userspace located at [`github.com/binepad-global/qmk_userspace_binepad`](https://github.com/binepad-global/qmk_userspace_binepad)
 
 ## Facing issues?
