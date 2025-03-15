@@ -32,7 +32,7 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
 > 2. <small>VIA is a UI build around QMK and uses the QMK core code to compile custom firmware</small>
 > 3. <small>VIAL is a fork of the original QMK and uses its own derivative code to compile custom firmware</small>
 > 4. <small>These UI tools will require the Chrome browser, or browsers built on the Chromium platform</small>
->    <br> :warning: <small>Although both VIA and VIAL are derivatives of QMK they are not cross compatible</small>
+>    <br> :warning: <small>Although both VIA and VIAL are derivatives of QMK they are not cross compatible. i.e. VIAL compiled unit will not work with VIA.</small>
 
 ## Firmware
 
