@@ -1,7 +1,7 @@
 # Firmware for the Binepad keyboards
 **&hellip; built on QMK, VIA or VIAL**
 
-![](assets/img/binepad_logo.svg)
+<img src="assets/img/binepad_logo.svg" width="315" height="70">
 
 ---
 
@@ -15,7 +15,7 @@
 
 ## Getting custom firmware on your keyboard
 
-Firmware files are stored in this folder and will be the file with the `.bin` or `.uf2` file extension.  Each firmware will also have a changelog showing the release data in the files with the `.changelog.md` extension.
+Firmware files are stored in this folder and will be the file with the `.bin`, `.hex` or `.uf2` file extension (depending on the MCU used in the unit).  Each firmware will also have a changelog showing the release data in the files with the `.changelog.md` extension.
 
 ---
 
@@ -32,34 +32,90 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
 > 2. <small>VIA is a UI build around QMK and uses the QMK core code to compile custom firmware</small>
 > 3. <small>VIAL is a fork of the original QMK and uses its own derivative code to compile custom firmware</small>
 > 4. <small>These UI tools will require the Chrome browser, or browsers built on the Chromium platform</small>
->    <br> :warning: <small>Although both VIA and VIAL are derivatives of QMK they are not cross compatible</small>
+>    <br> :warning: <small>Although both VIA and VIAL are derivatives of QMK they are not cross compatible. i.e. VIAL compiled unit will not work with VIA.</small>
 
 ## Firmware
 
-| Product || Firmware <small>build on</small> QMK <small>for</small> VIA | Firmware <small>build on</small> VIAL-QMK | Change Log | 
-| --:|:--:|:-- |:-- |:---:|
-| BN003 || [binepad_bn003_binepad.hex](binepad_bn003_binepad.hex) || [binepad_bn003_binepad.md](binepad_bn003_binepad.md) |
-| BN006 ||| [binepad_bn006_binepad.bin](binepad_bn006_binepad.bin) | [binepad_bn006_binepad.md](binepad_bn006_binepad.md) |
-| BN009 | r1 || [binepad_bn009_r1_binepad.hex](binepad_bn009_r1_binepad.hex) | [binepad_bn009_binepad.md](binepad_bn009_binepad.md) |
-|| r2 || [binepad_bn009_r2_binepad.bin](binepad_bn009_r2_binepad.bin) ||
-| BNK8 || [binepad_bnk8_binepad.bin](binepad_bnk8_binepad.bin) || [binepad_bnk8_binepad.md](binepad_bnk8_binepad.md) |
-| BNK9 || [binepad_bnk9_binepad.uf2](binepad_bnk9_binepad.uf2) || [binepad_bnk9_binepad.md](binepad_bnk9_binepad.md) |
-| BNR1 | v1 || [binepad_bnr1_v1_binepad.hex](binepad_bnr1_v1_binepad.hex) | [binepad_bnr1_binepad.md](binepad_bnr1_binepad.md)
-|| v2 || [binepad_bnr1_v2_binepad.bin](binepad_bnr1_v2_binepad.bin) ||
-| KN01 ||| [binepad_kn01_binepad.bin](binepad_kn01_binepad.bin) | [binepad_kn01_binepad.md](binepad_kn01_binepad.md) |
-| Pixie || [binepad_pixie_binepad.uf2](binepad_pixie_binepad.uf2)|| [binepad_pixie_binepad.md](binepad_pixie_binepad.md) |
+<table>
+  <thead>
+    <tr>
+      <th colspan="2" rowspan="2" align="center">Product</th>
+      <th colspan="2" align="center">Firmware</th>
+      <th rowspan="2" align="center">Change Log</th>
+    </tr>
+    <tr>
+      <th align="center"><small>build on</small><br>QMK <small>for</small> VIA</th>
+      <th align="center"><small>build on</small><br>VIAL-QMK</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">BN003</td>
+      <td></td>
+      <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bn003_binepad.hex" download><img src="assets/img/file-hex.svg" width="18" height="18" alt="HEX file"></a></td>
+      <td align="center"><a href="binepad_bn003_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+    </tr>
+    <tr>
+      <td colspan="2">BN006</td>
+      <td></td>
+      <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bn006_binepad.bin"><img src="assets/img/file-bin.svg" width="18" height="18" alt="BIN file"></a></td>
+      <td align="center"><a href="binepad_bn006_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+    </tr>
+    <tr>
+      <td rowspan="2">BN009</td>
+      <td>r1</td>
+      <td rowspan="2"></td>
+      <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bn009_r1_binepad.hex"><img src="assets/img/file-hex.svg" width="18" height="18" alt="HEX file"></a></td>
+      <td rowspan="2" align="center"><a href="binepad_bn009_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+    </tr>
+    <tr>
+      <td>r2</td>
+      <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bn009_r2_binepad.bin"><img src="assets/img/file-bin.svg" width="18" height="18" alt="BIN file"></a></td>
+    </tr>
+    <tr>
+      <td colspan="2">BNK8</td>
+      <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bnk8_binepad.bin"><img src="assets/img/file-bin.svg" width="18" height="18" alt="BIN file"></a></td>
+      <td></td>
+      <td align="center"><a href="binepad_bnk8_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+    </tr>
+    <tr>
+      <td colspan="2">BNK9</td>
+      <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bnk9_binepad.uf2"><img src="assets/img/file-uf2.svg" width="18" height="18" alt="UF2 file"></a></td>
+      <td></td>
+      <td align="center"><a href="binepad_bnk9_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+    </tr>
+    <tr>
+      <td rowspan="2">BNR1</td>
+      <td>v1</td>
+      <td rowspan="2"></td>
+      <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bnr1_v1_binepad.hex"><img src="assets/img/file-hex.svg" width="18" height="18" alt="HEX file"></a></td>
+      <td rowspan="2" align="center"><a href="binepad_bnr1_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+    </tr>
+    <tr>
+      <td>v2</td>
+      <td align="center"><a href="binepad_bnr1_v2_binepad.bin"><img src="assets/img/file-bin.svg" width="18" height="18" alt="BIN file"></a></td>
+    </tr>
+    <tr>
+      <td colspan="2">KN01</td>
+      <td></td>
+      <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_kn01_binepad.bin"><img src="assets/img/file-bin.svg" width="18" height="18" alt="BIN file"></a></td>
+      <td align="center"><a href="binepad_kn01_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+    </tr>
+    <tr>
+      <td colspan="2">Pixie</td>
+      <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_pixie_binepad.uf2"><img src="assets/img/file-uf2.svg" width="18" height="18" alt="UF2 file"></a></td>
+      <td></td>
+      <td align="center"><a href="binepad_pixie_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+    </tr>
+  </tbody>
+</table>
+
+:bangbang: **NB:** You may need the [QMK Toolbox](https://qmk.fm/toolbox) app to install the Firmware.
 
 
 ## License and Source
 
 - The licence for QMK (and its offspring) is [GNU GPL 2.0](./LICENSE.md)
-    | Permissions | Limitations | Conditions |
-    | --- | --- | --- |
-    | :white_check_mark: Commercial use | :x: Liability | :information_source: License and copyright notice |
-    | :white_check_mark: Modification | :x: Warranty | :information_source: State changes |
-    | :white_check_mark: Distribution || :information_source: Disclose source |
-    | :white_check_mark: Private use || :information_source: Same license |
-
 - Source for these firmware is compiled from their respective repositories, and the Binepad Global QMK Custom Userspace located at [`github.com/binepad-global/qmk_userspace_binepad`](https://github.com/binepad-global/qmk_userspace_binepad)
 
 ## Facing issues?
