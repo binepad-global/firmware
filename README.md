@@ -15,7 +15,7 @@
 
 ## Getting custom firmware on your keyboard
 
-Firmware files are stored in this folder and will be the file with the `.bin` or `.uf2` file extension.  Each firmware will also have a changelog showing the release data in the files with the `.changelog.md` extension.
+Firmware files are stored in this folder and will be the file with the `.bin`, `.hex` or `.uf2` file extension (depending on the MCU used in the unit).  Each firmware will also have a changelog showing the release data in the files with the `.changelog.md` extension.
 
 ---
 
@@ -53,20 +53,20 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
       <td colspan="2">BN003</td>
       <td></td>
       <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bn003_binepad.hex" download><img src="assets/img/file-hex.svg" width="18" height="18" alt="HEX file"></a></td>
-      <td align="center"><a href="binepad_bn003_binepad.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+      <td align="center"><a href="binepad_bn003_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
     </tr>
     <tr>
       <td colspan="2">BN006</td>
       <td></td>
       <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bn006_binepad.bin"><img src="assets/img/file-bin.svg" width="18" height="18" alt="BIN file"></a></td>
-      <td align="center"><a href="binepad_bn006_binepad.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+      <td align="center"><a href="binepad_bn006_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
     </tr>
     <tr>
       <td rowspan="2">BN009</td>
       <td>r1</td>
       <td rowspan="2"></td>
       <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bn009_r1_binepad.hex"><img src="assets/img/file-hex.svg" width="18" height="18" alt="HEX file"></a></td>
-      <td rowspan="2" align="center"><a href="binepad_bn009_binepad.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+      <td rowspan="2" align="center"><a href="binepad_bn009_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
     </tr>
     <tr>
       <td>r2</td>
@@ -76,20 +76,20 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
       <td colspan="2">BNK8</td>
       <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bnk8_binepad.bin"><img src="assets/img/file-bin.svg" width="18" height="18" alt="BIN file"></a></td>
       <td></td>
-      <td align="center"><a href="binepad_bnk8_binepad.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+      <td align="center"><a href="binepad_bnk8_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
     </tr>
     <tr>
       <td colspan="2">BNK9</td>
       <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bnk9_binepad.uf2"><img src="assets/img/file-uf2.svg" width="18" height="18" alt="UF2 file"></a></td>
       <td></td>
-      <td align="center"><a href="binepad_bnk9_binepad.md"></a><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></td>
+      <td align="center"><a href="binepad_bnk9_binepad.changelog.md"></a><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></td>
     </tr>
     <tr>
       <td rowspan="2">BNR1</td>
       <td>v1</td>
       <td rowspan="2"></td>
       <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bnr1_v1_binepad.hex"><img src="assets/img/file-hex.svg" width="18" height="18" alt="HEX file"></a></td>
-      <td rowspan="2" align="center"><a href="binepad_bnr1_binepad.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+      <td rowspan="2" align="center"><a href="binepad_bnr1_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
     </tr>
     <tr>
       <td>v2</td>
@@ -99,13 +99,13 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
       <td colspan="2">KN01</td>
       <td></td>
       <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_kn01_binepad.bin"><img src="assets/img/file-bin.svg" width="18" height="18" alt="BIN file"></a></td>
-      <td align="center"><a href="binepad_kn01_binepad.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+      <td align="center"><a href="binepad_kn01_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
     </tr>
     <tr>
       <td colspan="2">Pixie</td>
       <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_pixie_binepad.uf2"><img src="assets/img/file-uf2.svg" width="18" height="18" alt="UF2 file"></a></td>
       <td></td>
-      <td align="center"><a href="binepad_pixie_binepad.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+      <td align="center"><a href="binepad_pixie_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
     </tr>
   </tbody>
 </table>
