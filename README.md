@@ -110,6 +110,8 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
   </tbody>
 </table>
 
+:bangbang: NB: You may need the [QMK Toolbox](https://qmk.fm/toolbox) app to install the Firmware.
+
 
 ## License and Source
 
