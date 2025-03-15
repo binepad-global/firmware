@@ -82,7 +82,7 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
       <td colspan="2">BNK9</td>
       <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_bnk9_binepad.uf2"><img src="assets/img/file-uf2.svg" width="18" height="18" alt="UF2 file"></a></td>
       <td></td>
-      <td align="center"><a href="binepad_bnk9_binepad.changelog.md"></a><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></td>
+      <td align="center"><a href="binepad_bnk9_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
     </tr>
     <tr>
       <td rowspan="2">BNR1</td>
