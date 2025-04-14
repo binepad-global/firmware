@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 
 
+## [2025.04.14]
+
+### Changed
+
+- Split the **Win**dows and **mac**OS variants of the firmware.
+    - The only difference between the two is the encoder **detent** sensitivity.  The OS' seem to treat these differently.  A latter update will re-merge these with OS detection functionality.
+
 ## [2025.03.12]
 
 ### Added
@@ -51,6 +58,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+[2025.04.14]: https://github.com/binepad-global/qmk_userspace_binepad/commit/3a5c9e69da04aea31b8e2ca6cc6355859a5b8627
 [2025.03.12]: https://github.com/binepad-global/qmk_userspace_binepad/commit/11a459c0ba7c44574afdfaea09284f56537595b8
 [2025.02.17]: https://github.com/binepad-global/qmk_userspace_binepad/commit/66c6b2e84956dd063cf064dee02bebdd8a709abf
 [2025.02.15]: https://github.com/binepad-global/qmk_userspace_binepad/commit/5023432d924c4d9dc1a60472b500af16ae7a375c
