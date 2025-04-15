@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 
 
+## [2025.04.15]
+
+### Changed
+- Re-merged firmware into one build with a custom encoder implementation.
+    - **Detent** sensitivity is set to 2 for Windows and Linux, and 4 for Apple platforms.
+    - Firmware attempts to auto-detect OS, but if fails will revert to Windows setting of 2.
+    - If unit is connected to a USB-hub it may fail detection.
+
+### Removed
+
+- `binepad_bnk9_binepad_mac.uf2` & `binepad_bnk9_binepad_win.uf2`
+    - replaced with unified `binepad_bnk9_binepad.uf2`
+
+
 ## [2025.04.14]
 
 ### Changed
@@ -58,6 +72,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+[2025.04.15]: https://github.com/binepad-global/qmk_userspace_binepad/commit/fb1f49ece3b036adee2f9a0186151c65b251cc6b
 [2025.04.14]: https://github.com/binepad-global/qmk_userspace_binepad/commit/3a5c9e69da04aea31b8e2ca6cc6355859a5b8627
 [2025.03.12]: https://github.com/binepad-global/qmk_userspace_binepad/commit/11a459c0ba7c44574afdfaea09284f56537595b8
 [2025.02.17]: https://github.com/binepad-global/qmk_userspace_binepad/commit/66c6b2e84956dd063cf064dee02bebdd8a709abf
