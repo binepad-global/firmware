@@ -29,6 +29,7 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
 
 > 1. <small>QMK's configuration if for expert use only</small>
 >    <br> :warning: <small>It only creates firmware binaries, and will break any dependencies with VIA or VIAL</small>
+>    <br> :bangbang: **Does not support encoders - firmware built here will not support rotation events.**
 > 2. <small>VIA is a UI build around QMK and uses the QMK core code to compile custom firmware</small>
 > 3. <small>VIAL is a fork of the original QMK and uses its own derivative code to compile custom firmware</small>
 > 4. <small>These UI tools will require the Chrome browser, or browsers built on the Chromium platform</small>
