@@ -23,9 +23,9 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
 
 | Platform | Website | Github repository | Configuration |
 | --- | --- | --- | --- |
-| QMK | [`qmk.fm`](https://qmk.fm/) | [`qmk/qmk_firmware`](https://github.com/qmk/qmk_firmware) | [`config.qmk.fm`](https://config.qmk.fm/#/binepad/bnr1/v1/LAYOUT_ortho_1x1)&nbsp;<sup>1</sup>
-| VIA&nbsp;<sup>2</sup> | [`caniusevia.com`](https://www.caniusevia.com/) | [`the-via/qmk_userspace_via`](https://github.com/the-via/qmk_userspace_via) | [`usevia.app`](https://usevia.app)&nbsp;<sup>4</sup> |
-| VIAL&nbsp;<sup>3</sup> | [`get.vial.today`](https://get.vial.today) | [`vial-kb/vial-qmk`](https://github.com/vial-kb/vial-qmk) | [`vial.rocks`](https://vial.rocks)&nbsp;<sup>4</sup> |
+| QMK | [`qmk.fm`](https://qmk.fm/) | [`qmk/qmk_firmware`](https://github.com/qmk/qmk_firmware) | ~~[`config.qmk.fm`](https://config.qmk.fm/#/binepad/bnr1/v1/LAYOUT_ortho_1x1)~~ <sup>1</sup>
+| VIA <sup>2</sup> | [`caniusevia.com`](https://www.caniusevia.com/) | [`the-via/qmk_userspace_via`](https://github.com/the-via/qmk_userspace_via) | [`usevia.app`](https://usevia.app) <sup>4</sup> |
+| VIAL <sup>3</sup> | [`get.vial.today`](https://get.vial.today) | [`vial-kb/vial-qmk`](https://github.com/vial-kb/vial-qmk) | [`vial.rocks`](https://vial.rocks) <sup>4</sup> |
 
 > 1. <small>QMK's configuration if for expert use only</small>
 >    <br> :warning: <small>It only creates firmware binaries, and will break any dependencies with VIA or VIAL</small>
