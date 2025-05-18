@@ -27,13 +27,13 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
 | VIA <sup>2</sup> | [`caniusevia.com`](https://www.caniusevia.com/) | [`the-via/qmk_userspace_via`](https://github.com/the-via/qmk_userspace_via) | [`usevia.app`](https://usevia.app) <sup>4</sup> |
 | VIAL <sup>3</sup> | [`get.vial.today`](https://get.vial.today) | [`vial-kb/vial-qmk`](https://github.com/vial-kb/vial-qmk) | [`vial.rocks`](https://vial.rocks) <sup>4</sup> |
 
-> 1. <small>QMK's configuration if for expert use only</small>
->    <br> :warning: <small>It only creates firmware binaries, and will break any dependencies with VIA or VIAL</small>
->    <br> :bangbang: **Does not support encoders - firmware built here will not support rotation events.**
-> 2. <small>VIA is a UI build around QMK and uses the QMK core code to compile custom firmware</small>
-> 3. <small>VIAL is a fork of the original QMK and uses its own derivative code to compile custom firmware</small>
-> 4. <small>These UI tools will require the Chrome browser, or browsers built on the Chromium platform</small>
->    <br> :warning: <small>Although both VIA and VIAL are derivatives of QMK they are not cross compatible. i.e. VIAL compiled unit will not work with VIA.</small>
+> 1. QMK's configuration if for expert use only  
+>    :warning: It only creates firmware binaries, and will break any dependencies with VIA or VIAL  
+>    :bangbang: **Does not support encoders - firmware built here will not support rotation events.**  
+> 2. VIA is a UI build around QMK and uses the QMK core code to compile custom firmware  
+> 3. VIAL is a fork of the original QMK and uses its own derivative code to compile custom firmware  
+> 4. These UI tools will require the Chrome browser, or browsers built on the Chromium platform  
+>    :warning: Although both VIA and VIAL are derivatives of QMK they are not cross compatible. i.e. a VIAL compiled keyboard firmware will not work with VIA.
 
 ## Firmware
 
@@ -45,8 +45,8 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
       <th rowspan="2" align="center">Change Log</th>
     </tr>
     <tr>
-      <th align="center"><small>build on</small><br>QMK <small>for</small> VIA</th>
-      <th align="center"><small>build on</small><br>VIAL-QMK</th>
+      <th align="center"><small>Built on</small><br>QMK <small>for</small> VIA</th>
+      <th align="center"><small>Built on</small><br>VIAL-QMK</th>
     </tr>
   </thead>
   <tbody>
@@ -97,10 +97,22 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
       <td align="center"><a href="binepad_bnr1_v2_binepad.bin"><img src="assets/img/file-bin.svg" width="18" height="18" alt="BIN file"></a></td>
     </tr>
     <tr>
+      <td colspan="2">CandyPad</td>
+      <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_candypad_binepad.uf2"><img src="assets/img/file-uf2.svg" width="18" height="18" alt="UF2 file"></a></td>
+      <td></td>
+      <td align="center"><a href="binepad_candypad_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+    </tr>
+    <tr>
       <td colspan="2">KN01</td>
       <td></td>
       <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_kn01_binepad.bin"><img src="assets/img/file-bin.svg" width="18" height="18" alt="BIN file"></a></td>
       <td align="center"><a href="binepad_kn01_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
+    </tr>
+    <tr>
+      <td colspan="2">KnobX1</td>
+      <td></td>
+      <td align="center"><a href="https://cdn.jsdelivr.net/gh/binepad-global/firmware@main/binepad_knobx1_binepad.bin"><img src="assets/img/file-bin.svg" width="18" height="18" alt="BIN file"></a></td>
+      <td align="center"><a href="binepad_knobx1_binepad.changelog.md"><img src="assets/img/file-md.svg" width="18" height="18" alt="MarkDown file"></a></td>
     </tr>
     <tr>
       <td colspan="2">Pixie</td>
@@ -111,8 +123,22 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
   </tbody>
 </table>
 
-:bangbang: **NB:** You may need the [QMK Toolbox](https://qmk.fm/toolbox) app to install the Firmware.
+:bangbang: **NB:** You may need the [QMK Toolbox](https://qmk.fm/toolbox) app to install the Firmware in `.bin` and `.hex` formats.
 
+<!--
+
+## VIA `json`'s
+
+VIA as a UI is maintained by an unaffiliated group on GitHub, and as such posting updates to the VIA `json` files is not as fast as we need sometimes.  With that in mind, if we release a new variation of the firmware that uses **additional** VIA features then you will need to sideload below `json`'s to access them.
+
+| Product | Version<sup>5</sup> | VIA `json` |
+|:---:|:---:|:---:|
+| BNK8 | 2 | <a href="https://cdn.jsdelivr.net/gh/binepad-global/..."><img src="assets/img/file-json.svg" width="18" height="18" alt="JSON file"></a> |
+| BNK9 | 2 | <a href="https://cdn.jsdelivr.net/gh/binepad-global/..."><img src="assets/img/file-json.svg" width="18" height="18" alt="JSON file"></a> |
+
+> 5. Version here means the version specifier internal to the VIA protocol within the firmware
+
+-->
 
 ## License and Source
 
@@ -121,8 +147,6 @@ All firmware listed herein is build on one of 3 platforms, depending on the devi
 
 ## Facing issues?
 
-If you encounter any issues or bugs while using the devices, please report them via our contacts listed on the [binepad.com](https://binepad.com). This will help us to track down and resolve problems, and improve the experience for everyone.
+If you encounter any issues or bugs while using the devices, please report them via the contacts page listed on the [binepad.com](https://binepad.com) site. This will help in tracking down and resolving problems, and improve the experience for everyone.
 
 ---
-
-Thank you :smile:
